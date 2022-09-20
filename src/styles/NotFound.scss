@@ -1,0 +1,45 @@
+@import 'vars';
+
+.form-container {
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    width: 300px;
+    justify-items: center;
+  }
+
+.error-img{
+    width: 132px;
+    height: 132px;
+    border-radius: 50%;
+    background-color: var(--text-input-field);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 24px; 
+}
+
+.error-img img {
+  width: 80px;
+}
+
+.span-error {
+    background-color: var(--hospital-green);
+    border-radius: 8px;
+    border: none;
+    color: var(--white);
+    width: 100%;
+    cursor: pointer;
+    font-size: var(--md);
+    font-weight: bold;
+    height: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .span-error a{
+    color: var(--white);
+    text-decoration: none;
+  }
